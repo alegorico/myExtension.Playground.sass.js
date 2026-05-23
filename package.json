@@ -3,6 +3,9 @@
   "version": "0.1.17",
   "description": "Interactive chrome extensions playground featuring the Sass.js API",
   "main": "index.js",
+  "engines" : {
+    "node": "6.x || 7.x",
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "sh ./tasks/create.sh",
